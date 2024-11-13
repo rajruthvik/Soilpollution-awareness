@@ -1,0 +1,172 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background-color: #6b705c;
+    padding: 1rem;
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    text-align: center;
+}
+
+nav h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    display: inline;
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+.section {
+    padding: 100px 20px; /* Extra padding for fixed nav */
+    text-align: center;
+}
+
+.hero {
+    background: url('https://th.bing.com/th/id/R.35d925f5630d3910db42a941418a5f26?rik=wCLOwu6YSeSxug&riu=http%3a%2f%2fwww.milwaukeeindependent.com%2fwp-content%2fuploads%2f2019%2f04%2f042119_PlasticWaste.jpg&ehk=1OzicjgUaJPFsArLQyTCe7ksxQhajZoVxoJoGEA7EVo%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+    color: #fff;
+    padding: 5rem 2rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.hero .cta {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: #6b705c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.hero .cta:hover {
+    background: #a5a58d;
+}
+
+/* Section Colors */
+#about, #solutions {
+    background-color: #e5e5e5;
+}
+
+#causes {
+    background: url("/OIP.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: auto;
+    color: rgb(0, 0, 0);
+}
+
+#effects{
+    margin-top: 5rem;
+}
+
+#contact{
+    background-color: #6b705c;
+    color: #fff;
+}
+
+#contact a{
+    text-decoration: none;
+    color: black;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #6b705c;
+    color: #fff;
+    border-top: 1px solid black;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+  
+  footer {
+    
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  form {
+    max-width: 600px; /* Center form */
+    margin: 0 auto; /* Center form */
+    text-align: left; /* Align text to the left */
+  }
+  
+  form label {
+    display: block; /* Block display for labels */
+    margin: 10px 0 5px; /* Spacing for labels */
+  }
+  
+  form input, form textarea {
+    width: 100%; /* Full width */
+    padding: 20px; /* Padding for inputs */
+    margin-bottom: 50px; /* Space below inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  form button {
+   
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s; /* Transition for button */
+  }
+  
+  form button:hover {
+    background: #388E3C; /* Darker green on hover */
+  }
